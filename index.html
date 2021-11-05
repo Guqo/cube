@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/logo-white.gif" type="image/gif" sizes="16x16">
     <title>Kostka</title>
 
     <!-- Bootstrap CSS -->
@@ -20,24 +21,39 @@
 </head>
 
 <body>
-    <main>
+    <header>
         <div class="underlineNadpis">
-            <h1 class="text-center p-3 nadpis">Kos<span>tka</span></h1>
+            <h1 class="text-center p-3 nadpis">Kostka</h1>
             <hr>
         </div>
-        <div class="container">
+    </header>
+    <main class="container">
+        <div>
             <figure>
                 <img id="cube" class="center kostka" src="img/waiting.png" alt="Kostka">
             </figure>
             <div id="play" class="tlacitko center">Hraj</div>
             <hr>
             <div class="underlineStatistiky">
-                <h2 class="statistiky text-center">Stati<span>stika</span></h2>
+                <h2 class="statistiky text-center">Výsledky</h2>
                 <hr>
             </div>
-            <div id="result" class="vysledky text-center"></div>
+            <div id="result" class="vysledky text-center">
+                <p>Aktuální hod: N/A</p>
+                <p>Počet hodů: N/A</p>
+                <p>Součet hodů: N/A</p>
+                <p>Průměr hodů: N/A</p>
+                <p>Největší hod: N/A</p>
+                <p>Nejmenší hod: N/A</p>
+            </div>
         </div>
     </main>
+    <footer>
+        <p>
+            <a href="https://github.com/Guqo" target="_blank">Tomáš Ryba, IT2</a>
+        </p>
+    </footer>
+
 
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

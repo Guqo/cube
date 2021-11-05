@@ -49,11 +49,11 @@ function min() {
 }
 
 function statistika() {
-    let vysledek = `<p>Aktuální <span>hod</span>: ${hody[hody.length-1]}</p>`;
-    vysledek += `<p>Počet <span>hodů</span>: ${hody.length}</p>`;
-    vysledek += `<p>Součet <span>hodů</span>: ${suma()}</p>`;
-    vysledek += `<p>Průměr <span>hodů</span>: ${(suma()/hody.length).toFixed(2)}</p>`;
-    vysledek += `<p>Největší <span>hod</span>: ${max()}</p>`;
-    vysledek += `<p>Nejmenší <span>hod</span>: ${min()}</p>`;
+    let vysledek = `<p>Aktuální hod: ${hody[hody.length-1]}</p>`;
+    vysledek += `<p>Počet hodů: ${hody.length}</p>`;
+    vysledek += `<p>Součet hodů: ${suma()}</p>`;
+    vysledek += `<p>Průměr hodů: ${(suma()/hody.length).toFixed(2)}</p>`;
+    vysledek += `<p>Největší hod: ${max()}</p>`;
+    vysledek += `<p>Nejmenší hod: ${min()}</p>`;
     return vysledek;
 }
